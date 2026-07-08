@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: Playfair Display, sans-serif
 }
 
 .letra-blancas{
@@ -13,13 +14,12 @@ body {
     object-position: center;
 }
 
+
+
+
 .card{
     background-color: #0dcaf0;
     
-}
-
-.card-body {
-    display: none;
 }
 
 
@@ -53,11 +53,16 @@ h3{
 
 
 
+
+
+
 .viajes-footer {
     padding: 10px 0;
     width: 100%;
     background-color: #0dcaf0;
 }
+
+
 
 .footer-container {
     max-width: 1200px;        

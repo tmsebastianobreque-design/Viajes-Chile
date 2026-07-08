@@ -1,5 +1,12 @@
+
 $(document).ready(function() {
-    $('.card-img-top').click(function() {
-        $(this).next('.card-body').slideToggle();
+    $('h3').dblclick(function() {
+        $(this).css('color', 'gold');
     });
 });
+ 
+ $('.card-img-top').click(function() {
+    $(this).siblings('.contenido').toggle();
+  });
+
+
