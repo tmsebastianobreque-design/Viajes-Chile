@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     $('h3').dblclick(function() {
-        $(this).css('color', 'silver');
+        $(this).css('color', 'gold');
     });
 });
  
